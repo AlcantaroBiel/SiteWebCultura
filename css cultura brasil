@@ -1,22 +1,23 @@
-/* Arquivo de estilo*/
-body{
-background: lightblue;
+.corpo1{
+background: LightGrey;
 width: 600px;
 margin: auto;
 }
-h1{
+.titulo{
   text-align: center;
-  color: MediumSeaGreen
+  color:ForestGreen;
+  font-family: fantasy;
 }
-h2{
+.subtitulo{
   text-align: center;
-  font-style: italic;
+  font-family: inherit;
   font-weight: bolder;
-  color: deepskyblue
+  color:RoyalBlue;
 }
-p{
+.brasil
+{
   text-align: left;
   font-style: oblique;
   font-size: 18px
-
 }
+
