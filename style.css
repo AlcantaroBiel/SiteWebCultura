@@ -161,14 +161,14 @@ main{
 }
 
 .home-colunas img{
-    height: 300px;
-    width: 430px;
+    height: 50%;
+    width: 90%;
     opacity: 0.3;
 }
 
 .home-colunas img:hover{
-    height: 320px;
-    width: 450px;
+    height: 60%;
+    width: 100%;
 }
 
 .home-colunas h3{
@@ -320,4 +320,62 @@ main{
         border-radius: 5px;
         box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
     }
+    .home-container-colunas{
+        display:block
+    }
+    
+    .home-colunas{
+        background-color:rgb(255, 255, 255);
+        position: relative;
+        margin: 1% 10%;
+        padding: 4% 3%;
+        width: 70%;
+        height: 548px;
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+    }
 }
+@media (max-width:810px){
+    header nav .navbar-options{
+        position:absolute;
+        width: 600px;
+        margin-top: 25px;
+        font-size: 25px;
+        right: 5px;
+        text-decoration: none;
+    }
+
+    .navbar-options a:hover{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:700px){
+    header nav .navbar-options{
+        position:absolute;
+        width: 480px;
+        margin-top: 25px;
+        font-size: 20px;
+        right: 0px;
+        text-decoration: none;
+    }
+
+    .navbar-options a:hover{
+        font-size: 22px;
+    }
+
+    .main-contatos-colunas-real{
+        display:block;
+    }
+
+    .contatos-colunas{
+        margin: 2%;
+        width: 100%;
+        
+    }
+    .contatos-colunas p, h3{
+        text-align: center;
+        padding: 5px;
+    }
+
+}
+
